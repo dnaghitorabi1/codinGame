@@ -8,9 +8,7 @@ const map = new Map([
 
 // Main
 let messageArray = MESSAGE.split("");
-
 let messageArrayBinary = convertToBinary(messageArray);
-
 let answer = [];
 
 messageArrayBinary.forEach((item, i) => { // For each digit in the binary array,
