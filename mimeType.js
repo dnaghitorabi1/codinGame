@@ -13,7 +13,6 @@ for (let i = 0; i < N; i++) {
 
 for (let i = 0; i < Q; i++) { // For each file name,
   const FNAME = readline(); // store file name.
-  console.error("FNAME: " + FNAME);
 
   let ext = "";
 
