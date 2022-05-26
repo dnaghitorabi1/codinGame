@@ -1,6 +1,5 @@
 // Declarations
 const MESSAGE = readline(); // original string
-console.error("MESSAGE: " + MESSAGE);
 const map = new Map([
   ["0", [0, 0]],
   ["1", [0]]
@@ -9,10 +8,8 @@ const map = new Map([
 
 // Main
 let messageArray = MESSAGE.split("");
-console.error("messageArray: " + messageArray);
 
 let messageArrayBinary = convertToBinary(messageArray);
-console.error("messageArrayBinary: " + messageArrayBinary);
 
 let answer = [];
 
